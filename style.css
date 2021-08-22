@@ -1,0 +1,68 @@
+body
+{
+	background: #85a5d4; /*fon rangi*/
+	font-family: serif; /*text turi*/
+}
+
+.container
+{
+	width: 1200px;  /*markazga keltirish uchun eni berildi*/
+	display: flex; /*display turi*/
+	justify-content: space-between; /*element'lar yoyilib turishi uchun*/
+	background: #fff; /*fon rangi*/
+	margin-top: 100px;  /*.container elemetini pastga tushirish*/
+	margin-left: auto;  /*barcha elementlarni markazga keltirish uchun*/
+	margin-right: auto; /*barcha elementlarni markazga keltirish uchun*/
+	text-align: center; /*rasm va text'larni markazga keltirish uchun*/
+	border-radius: 7px; /*burche qirralarini yo'qotish*/
+	box-shadow: 2px 8px 20px 5px #333; /*soya berish*/
+}
+
+.container a
+{
+	display: flex;  /*display turi*/
+	flex-direction: column;  /*element'lar bo'yiga joylashishi uchun*/
+	align-items: center;  /*element'lar markazga kelishi uchun*/
+	justify-content: space-around;  /*element'lar yoyilib turishi uchun*/
+	width: 320px;  /*elementlarga berilgan joy teng bo'lishi uchun berildi*/
+	padding: 10px 20px; /*10px rasm tepaga taqalib qomasligi va 20px yontomon maydonni kengaytirish uchun*/
+	border-radius: 7px; /*hover qilinganida burche qirrasi ko'rinmasligi uchun*/
+	text-decoration: none; /*text'larni tag chizig'ini oblibtashlash*/
+	transition: background .5s; /* hover holatini sekinlashtirish*/
+}
+
+a:hover
+{
+	background: #e0e0e0; /*fon rangi*/
+}
+
+img
+{
+	width: 70px;  /*rasm eni*/
+	height: 70px; /*rasm bo'yi*/
+}
+
+h2
+{
+	color: #0000ff; /*text rangi*/
+	letter-spacing: 2px; /*harflar orasidagi masofa*/
+}
+
+p
+{
+	color: #444; /*text rangi*/
+	line-height: 1.4; /*qatorlar orasidagi masofa*/
+	display: inline-block; /*($,SON,/month) yonma-yon turishi uchun*/
+}
+
+.cost
+{
+	color: #0000ff;  /*text rangi*/
+	font-size: 30px; /*text o'lchami*/
+}
+
+.label
+{
+	color: #0000ff;  /*text rangi*/
+	font-size: 18px; /*text o'lchami*/
+}
